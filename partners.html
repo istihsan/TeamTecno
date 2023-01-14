@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <!-- <title>Responsive Cards</title> -->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat',sans-serif;
+            color: white;
+            }
+            .nav-masthead .nav-link {
+            padding: .25rem 0;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .5);
+            background-color: transparent;
+            border-bottom: .25rem solid transparent;
+            }
+
+            .nav-masthead .nav-link:hover,
+            .nav-masthead .nav-link:focus {
+            border-bottom-color: white(255, 255, 255, .25);
+            color: white;
+            }
+
+            .nav-masthead .nav-link + .nav-link {
+            margin-left: 1rem;
+            }
+
+            .nav-masthead .active {
+            color: #fff;
+            border-bottom-color: #fff;
+            }
+            .cards{
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 30px;
+            }
+            .cards h2.header{
+            font-size: 40px;
+            margin: 0 0 30px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            }
+            .services{
+            display: flex;
+            align-items: center;
+            }
+            .content{
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 4px;
+            transition: all .3s ease;
+            min-width: 411px;
+            min-height: 367px;
+            }
+            .content .fab{
+            font-size: 70px;
+            margin: 16px 0;
+            }
+            .content > *{
+            flex: 1 1 100%;
+            }
+            .content:hover{
+            color: white;
+            }
+            .content:hover a{
+            border-color: white;
+            background: white;
+            }
+            .content-1:hover{
+            border-color: #1DA1F2;
+            background: #1DA1F2;
+            }
+            .content-1:hover a{
+            color: #1DA1F2;
+            }
+            .content-2:hover{
+            border-color: #E1306C;
+            background: #E1306C;
+            }
+            .content-2:hover a{
+            color: #E1306C;
+            }
+            .content-3:hover{
+            border-color: #ff0000;
+            background: #ff0000;
+            }
+            .content-3:hover a{
+            color: #ff0000;
+            }
+            .content h2{
+            font-size: 30px;
+            margin: 16px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            }
+            .content p{
+            font-size: 17px;
+            font-family: 'Poppins',sans-serif;
+            }
+            .content a{
+            margin: 22px 0;
+            background: white;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 1px solid white;
+            padding: 15px 0;
+            border-radius: 25px;
+            transition: .3s ease;
+            }
+            .content a:hover{
+            border-radius: 4px;
+            }
+            @media (max-width: 900px) {
+            .services{
+                display: flex;
+                flex-direction: column;
+            }
+            }
+
+   </style>
+   <body style="background-image: url(./Gambar/bgmain/CommunitiesBG.png);">
+      <div class="cards" style="margin-right: 29%;">
+         <header class="mb-auto sticky-top" style="margin-left: 30.5%;">
+            <div class="pt-4">
+            <a href="main.html"><img src="./Gambar/Logo/TEAM_TECNO_ICON_2.png" style="max-width: 5%;"></a>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link" href="/">The Team</a>
+                <a class="nav-link" href="/drivers.html">The Drivers</a>
+                <a class="nav-link" href="/communities.html">Community</a>
+                <a class="nav-link" href="#">Achievements</a>
+            </nav>
+            </div>
+        </header>
+         <div class="services">
+            <div class="content content-1">
+               <div><img src="./Gambar/Logo/partners/egomaniac.png" style="padding-top: 5%" alt=""></div>
+               <h2>
+                  Egomaniac
+               </h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+               </p>
+               <a style= "color: black"href="https://www.instagram.com/egomaniac.store/">Read More</a>
+            </div>
+            <div class="content content-2">
+               <div><img src="./Gambar/Logo/partners/ers.png" style="padding-top: 5%" alt="">
+                  </div>
+               <h2>
+                  ERS Simulator
+               </h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+               </p>
+               <a style= "color: black"href="https://www.instagram.com/ers.simulator/">Read More</a>
+            </div>
+            <div class="content content-3">
+               <div><img src="./Gambar/Logo/partners/f1esportsindo.png" style="padding-top: 5%" alt="">
+                  </div>
+               <h2>
+                  F1 Esports Indo
+               </h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+               </p>
+               <a style= "color: black"href="https://www.instagram.com/f1esportsindonesia/">Read More</a>
+            </div>
+         </div>
+
+         <div class="services">
+            <div class="content content-3">
+                <div><img src="./Gambar/Logo/partners/FG.png" style="padding-top: 5%" alt="">
+                  </div>
+                <h2>
+                   Formula Gledek
+                </h2>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                </p>
+                <a style= "color: black"href="https://www.instagram.com/formulagledek/">Read More</a>
+             </div>
+
+             <div class="content content-3">
+                <div><img src="./Gambar/Logo/partners/lamres.png" style="padding-top: 5%" alt="">
+                  </div>
+                <h2>
+                   Lambe Resing
+                </h2>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                </p>
+                <a style= "color: black"href="https://www.instagram.com/lamberesing/">Read More</a>
+             </div>
+
+             <div class="content content-3">
+               <div>
+                <img src="./Gambar/Logo/partners/kausr.png" style="padding-top: 5%" alt=""></div>
+               <h2>
+                  Kausr
+               </h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+               </p>
+               <a style= "color: black"href="https://www.instagram.com/kausr.id/">Read More</a>
+            </div>
+         </div>
+
+         <div class="services" style="margin-left: 43.4%;">
+            <div class="content content-3" style="max-width: 411px; max-height: 367px;">
+                <div><img src="./Gambar/Logo/partners/balwerk.png" style="padding-top: 5%" alt="">
+                  </div>
+                <h2>
+                   Balwerk.id
+                </h2>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                </p>
+                <a style= "color: black"href="https://www.instagram.com/balwerk.id/">Read More</a>
+             </div>
+
+
+         </div>
+      </div>
+      <div class= "" style="background-color: black; z-index: 35648;">
+         <a href="https://www.instagram.com/egomaniac.store/"><img src="./Gambar/Logo/partners/egomaniac.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%; margin-left: 19%; " alt=""></a>
+         <a href="https://www.instagram.com/lamberesing/"><img src="./Gambar/Logo/partners/lamres.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;" alt=""></a>
+         <a href="https://www.instagram.com/balwerk.id/"><img src="./Gambar/Logo/partners/balwerk.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;"  alt=""></a>
+         <a href="https://www.instagram.com/ers.simulator/"><img src="./Gambar/Logo/partners/ers.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;"  alt=""></a>
+         <a href="https://www.instagram.com/formulagledek/"><img src="./Gambar/Logo/partners/FG.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;"  alt=""></a>
+         <a href="https://www.instagram.com/kausr.id/"><img src="./Gambar/Logo/partners/kausr.png" style="max-width:120px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;"  alt=""></a>
+         <a href="https://www.instagram.com/f1esportsindonesia/"><img src="./Gambar/Logo/partners/f1esportsindo.png" style="max-width:180px; margin-right: 2%; padding-top: 1%; padding-bottom: 1%;" alt=""></a>
+       </div>
+   </body>
+</html>
